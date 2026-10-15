@@ -18,8 +18,7 @@ uvicorn app.main:app --port 8000 --reload
 
 ```powershell
 python -m venv .venv
-.\.
-venv\Scripts\Activate
+.\.venv\Scripts\Activate
 pip install -r requirements.txt
 $env:MONGO_URI = "mongodb://localhost:27017"   # or Atlas URI
 $env:MONGO_DB = "attendance_db"
